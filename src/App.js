@@ -47,7 +47,7 @@ function App() {
           />
           {/* <Redirect to={ROUTES.CONTACTS} /> */}
           <Route
-            path={ROUTES.CONTACTS}
+            path='/contacts'
             element=<ContactsPage
               contacts={contacts}
               addContact={addContact}
@@ -55,7 +55,7 @@ function App() {
           />
           {/* Add props to ContactsPage */}
           <Route
-            path={ROUTES.APPOINTMENTS}
+            path='/appointments'
             element=<AppointmentsPage
               appointments={appointments}
               contacts={contacts}
