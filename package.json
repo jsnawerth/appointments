@@ -1,6 +1,5 @@
 {
   "name": "react-challenge",
-  "homepage": "https://appointment-jsnv.netlify.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
