@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Route, Navigate, NavLink, Routes } from "react-router-dom";
 
 import { AppointmentsPage } from "./containers/appointmentsPage/AppointmentsPage";
@@ -29,7 +29,6 @@ function App() {
     const newArrayObject = { title, contact, date, time };
     setAppointment((appointments) => [...appointments, newArrayObject]);
   };
-
   return (
     <>
       <nav>
